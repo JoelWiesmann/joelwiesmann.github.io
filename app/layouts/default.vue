@@ -8,6 +8,14 @@
 
 <script setup>
 useHead({
+    title: 'wiesmann.io',
+    icon: 'images/favicon.svg',
+    meta: [
+        {
+            name: 'description',
+            content: 'Joel Wiesmann - AI / Automation Engineer & Automic expert from Switzerland',
+        },
+    ],
     link: [
         {
             rel: 'preconnect',

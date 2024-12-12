@@ -10,7 +10,6 @@
                     <i>Thinking about life and stuff.</i>
                 </div>
                 <div class="sm:w-1/2 text-justify">
-
                     <br />
                     Welcome to my domain!<br />
                     <br />

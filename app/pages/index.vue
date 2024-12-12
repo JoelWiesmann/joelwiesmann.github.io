@@ -18,7 +18,7 @@
                     <br />
                     Also I'm a content creator / trainer at Philipp Elmer Membership (<NuxtLink
                         href="https://www.pemautomic.com" target="_blank">en</NuxtLink> / <NuxtLink
-                        href="https://membership.philippelmer.com" target="_blank">de</NuxtLink>)<br />
+                        href="https://membership.philippelmer.com" target="_blank">de</NuxtLink>).<br />
                     <br />
                     However, I don't want to spread my personal details all over the internet. If you want to get in
                     touch with me, you can connect with me on LinkedIn.<br />

@@ -10,6 +10,9 @@
 useHead({
     title: 'wiesmann.io',
     icon: 'images/favicon.svg',
+    bodyAttrs: {
+        class: 'bg-gray-800',
+    },
     meta: [
         {
             name: 'description',
@@ -28,10 +31,3 @@ useHead({
     ],
 })
 </script>
-
-<style>
-body {
-    font-family: 'Inter';
-    @apply dark:bg-gray-900 bg-white;
-}
-</style>

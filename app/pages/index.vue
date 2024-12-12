@@ -14,7 +14,7 @@
                     Welcome to my domain!<br />
                     <br />
                     I'm an experienced automation engineer from Switzerland 🫕 with a passion for Broadcom Automic,
-                    Python 🐍, Bash 🐧 and GenAI technologies 🤖.<br />
+                    Python, Bash and GenAI technologies.<br />
                     <br />
                     Also I'm a content creator / trainer at Philipp Elmer Membership (<NuxtLink
                         href="https://www.pemautomic.com" target="_blank">en</NuxtLink> / <NuxtLink

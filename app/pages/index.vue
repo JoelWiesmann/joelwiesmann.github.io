@@ -2,7 +2,7 @@
     <div>
         <UCard class="m-10 shadow-2xl">
             <div>
-                <h1 class="text-2xl">wiesmann.io</h1>
+                <h1 class="text-2xl font-bold">wiesmann.io</h1>
             </div>
             <div class="sm:flex">
                 <div class="text-center">

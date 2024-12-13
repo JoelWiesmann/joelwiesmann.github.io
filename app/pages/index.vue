@@ -1,13 +1,13 @@
 <template>
     <div>
-        <UCard class="m-10">
+        <UCard class="m-10 shadow-2xl">
             <div>
                 <h1 class="text-2xl">wiesmann.io</h1>
             </div>
             <div class="sm:flex">
                 <div class="text-center">
                     <NuxtImg src="images/joel.png" class="w-80" />
-                    <i>Thinking about life and stuff.</i>
+                    <i>Me, thinking about life and stuff.</i>
                 </div>
                 <div class="sm:w-1/2 text-justify">
                     <br />

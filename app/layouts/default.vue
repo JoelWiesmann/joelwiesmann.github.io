@@ -11,7 +11,7 @@ useHead({
     title: 'wiesmann.io',
     icon: 'images/favicon.svg',
     bodyAttrs: {
-        class: 'bg-gray-800',
+        class: 'bg-gray-700',
     },
     meta: [
         {

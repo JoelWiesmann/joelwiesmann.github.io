@@ -42,12 +42,7 @@
 <script setup>
 const colormode = useColorMode()
 
-const icon = computed(() => {
-    return colormode.value === 'dark' ? 'heroicons:sun' : 'heroicons:moon'
-})
-
-const colorModeToggle = () => {
-    colormode.value = colormode.value === 'dark' ? 'light' : 'dark'
-}
+const icon = computed(() => colormode.value === 'dark' ? 'i-heroicons-sun' : 'i-heroicons-moon')
+const colorModeToggle = () => colormode.value = colormode.value === 'dark' ? 'light' : 'dark'
 
 </script>

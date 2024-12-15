@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  ui: {
-    icons: 'all'
-  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/image', '@nuxtjs/color-mode'],
@@ -16,5 +13,10 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }]
     },
-  }
+  },
+  icon: {
+    clientBundle: {
+      scan: true,
+    },
+  },
 })

@@ -6,7 +6,9 @@
                     <h1 class="text-2xl font-bold">wiesmann.io</h1>
                 </div>
                 <div>
-                    <UIcon :name="icon" @click="colorModeToggle"></UIcon>
+                    <ClientOnly>
+                        <UIcon :name="icon" @click="colorModeToggle"></UIcon>
+                    </ClientOnly>
                 </div>
             </div>
             <div class="sm:flex">

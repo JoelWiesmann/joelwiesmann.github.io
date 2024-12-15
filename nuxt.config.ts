@@ -13,8 +13,5 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }]
     },
-  },
-  icon: {
-    scan: true
   }
 })

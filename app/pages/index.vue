@@ -8,7 +8,7 @@
                 <div>
                     <ClientOnly>
                         <UButton color="white" variant="solid"
-                            :icon="colormode.value === 'dark' ? 'i-heroicons-sun' : 'i-heroicons-moon'"
+                            :icon="colormode.value === 'dark' ? 'heroicons-sun' : 'heroicons-moon'"
                             @click="colormode.value = colormode.value === 'dark' ? 'light' : 'dark'" />
                     </ClientOnly>
                 </div>

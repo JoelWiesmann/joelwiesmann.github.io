@@ -30,7 +30,7 @@
                         href="https://membership.philippelmer.com" target="_blank">de</NuxtLink>).<br />
                     <br />
                     However, I don't want to spread my personal details all over the internet. If you want to get in
-                    touch with me, you can connect with me on LinkedIn.<br />
+                    touch with me, let's connect on LinkedIn.<br />
                     <br />
                     - Joel<br />
                     <br />

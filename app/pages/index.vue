@@ -1,13 +1,15 @@
 <template>
     <div>
         <UCard class="m-10 shadow-2xl">
-            <div class="sm:flex justify-between">
+            <div class="flex justify-between">
                 <div>
                     <h1 class="text-2xl font-bold">wiesmann.io</h1>
                 </div>
                 <div>
                     <ClientOnly>
-                        <UIcon :name="icon" @click="colorModeToggle"></UIcon>
+                        <UButton color="white" variant="solid"
+                            :icon="colormode.value === 'dark' ? 'i-heroicons-sun' : 'i-heroicons-moon'"
+                            @click="colormode.value = colormode.value === 'dark' ? 'light' : 'dark'" />
                     </ClientOnly>
                 </div>
             </div>
@@ -43,8 +45,4 @@
 
 <script setup>
 const colormode = useColorMode()
-
-const icon = computed(() => colormode.value === 'dark' ? 'i-heroicons-sun' : 'i-heroicons-moon')
-const colorModeToggle = () => colormode.value = colormode.value === 'dark' ? 'light' : 'dark'
-
 </script>
